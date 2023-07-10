@@ -1,0 +1,261 @@
+body {
+    font-family: "Verdana";
+    position: fixed;
+    width: 2000px;
+}
+#header {
+    height: 130px;
+    background-color: #021a24;
+}
+#web {
+    position: relative;
+    left: 100px;
+    top: 15px;
+    display: inline-block;
+}
+#web h1 {
+    font-weight: bold;
+}
+#web h1 a {
+    text-decoration: none;
+    color: aliceblue;
+}
+#nav-bar {
+    position: relative;
+    left: 700px;
+    top: 10px;
+    display: inline-block;
+    font-size: 20px;
+}
+#nav-bar ul {
+    margin-top:40px;
+    margin-right: 40px;
+}
+#nav-bar ul li {
+    display: inline-block;
+    padding-right: 40px;
+}
+#nav-bar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    word-spacing: 0;
+    color: aliceblue;
+}
+#nav-bar ul li:first-child a {
+    font-weight: bold;
+}
+#image{
+    margin: auto;
+    width: 550px;
+    height: 450px;
+    position: relative;
+    left: 670px;
+    top: 70px;
+}
+.jas > h4{
+    position: relative;
+    left: 800px;
+    top: 90px;
+    font-size: 20px;
+}
+body > div.jas > div > p{
+    position: relative;
+    left: 855px;
+    top: 90px;
+    color: #021a24;
+    font-size: 19px;
+    font-weight: bold;
+}
+body > div.jas > ul > li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+body > div.jas > ul > li > a{
+    color: #021a24;
+    text-decoration: none;
+    font-size: 50px;
+    position: relative;
+    left: 798px;
+    top: 90px;
+}
+#bio{
+    width: 696px;
+}
+#tekst > h1{
+    width: 144px;
+    position: relative;
+    left: 500px;
+    top: 30px;
+    border-bottom: black solid 2px;
+}
+#tekst > p{
+    position: relative;
+    left: 250px;
+    top: 40px;
+    text-align: justify;
+    font-size: 17px;
+    letter-spacing: 0.1px;
+}
+#image2{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 1200px;
+    top: 220px;
+}
+.hobi > #grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+    left: 100px;
+    top: 20px;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+}
+#basket, #tocak, #igri{
+    width: 390px;
+}
+#image3{
+    width: 340px;
+    height: 190px;
+    position: relative;
+    top: 100px;
+}
+#image4{
+    width: 340px;
+    height: 198px;
+    position: relative;
+    top: 78px;
+}
+#image5{
+    width: 340px;
+    height: 198px;
+    position: relative;
+    top: 92px;
+}
+#education > ol{
+    width: 900px;
+    position: relative;
+    left: 100px;
+    top: 80px;
+}
+#education > h1{
+    position: relative;
+    left: 380px;
+    top: 30px;
+}
+body > div.hobi > h1{
+    position: relative;
+    left: 400px;
+}
+#basket > h3, #tocak > h3, #igri > h3{
+    text-align: center;
+}
+#contact > div > div.contact-content > div > div:nth-child(2){
+    position: relative;
+    top: 105px;
+    left: 450px;
+}
+#contact > div > div:nth-child(2){
+    position: relative;
+    top: 190px;
+    left: 450px;
+}
+#contact > div > div:nth-child(3){
+    position: relative;
+    left: 450px;
+    top: 270px;
+}
+#contact > div > div.contact-content > h3{
+    position: relative;
+    top: 70px;
+    left: 580px;
+}
+#naslov{
+    font-size: 35px;
+    position: relative;
+    left: 500px;
+    top: 40px;
+}
+#contact > div > div.contact-content-cel > h3{
+    position: relative;
+    top: -50px;
+    left: 1200px;
+}
+.input{
+    position: relative;
+    left: 1200px;
+    width: 30%;
+    height: 100%;
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding: 20px;
+    color: black;
+}
+#contact > div > div.contact-content > div > div:nth-child(2) > span.data-info{
+    position: relative;
+    top: 40px;
+    left: -50px;
+}
+#contact > div > div:nth-child(2) > span.data-info{
+    position: relative;
+    top: 40px;
+    left: -87px;
+}
+#contact > div > div:nth-child(3) > span.data-info{
+    position: relative;
+    top: 40px;
+    left: -91px;
+}
+#name{
+    position: relative;
+    left: 1160px;
+}
+#email{
+    position: relative;
+    left: 1173px;
+    top: 40px;
+}
+#comment{
+    position: relative;
+    left: 1130px;
+    top: 80px;
+}
+#contact-form > div:nth-child(1) > label{
+    position: relative;
+    left: 1210px;
+    top: -40px;
+}
+#contact-form > div:nth-child(2) > label{
+    position: relative;
+    left: 1210px;
+}
+#contact-form > div:nth-child(3) > label{
+    position: relative;
+    left: 1210px;
+    top: 2px;
+}
+#contact-form > button{
+    position: relative;
+    top: 100px;
+    left: 1200px;
+    width: 660px;
+}
+#contact > div > div.contact-content > div > div:nth-child(2) > a{
+    text-decoration: none;
+    position: relative;
+    top: 40px;
+}
+#contact > div > div:nth-child(2) > a{
+    text-decoration: none;
+    position: relative;
+    top: 40px;
+    left: -30px;
+}
+#contact > div > div:nth-child(3) > a{
+    text-decoration: none;
+    position: relative;
+    top: 40px;
+    left: -30px;
+}

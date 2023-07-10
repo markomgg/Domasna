@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+    <title>Contact</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<div id="header">
+    <div id="header-nav">
+        <div id="web">
+            <h1><a href="#">Basics of Web Design</a></h1>
+        </div>
+        <div id="nav-bar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="biography.html">Biography</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<section class="contact-section" id="contact">
+    <h1 id="naslov">Contact me</h1>
+    <div class="contact-container">
+        <div class="contact-content">
+        <h3 class="title">Talk to me</h3>
+
+        <div class="contact-info">
+            <div class="contact-data">
+                <span class="data-title"></span>
+                <span class="data-info"></span>
+            </div>
+
+            <div class="contact-data">
+                <span class="data-title">Email</span>
+                <span class="data-info">acovskimarko@gmail.com</span>
+                <a href="https://mail.google.com" class="contact-button">Write me</a>
+            </div>
+        </div>
+        </div>
+        <div class="contact-data">
+            <span class="data-title">Whatsapp</span>
+            <span class="data-info">+38976738240</span>
+            <a href="https://api.whatsapp.com/send?phone=38976738240&text=Hello, more information!" target="_blank" class="contact-button">Write me</a>
+        </div>
+        <div class="contact-data">
+            <span class="data-title">Messenger</span>
+            <span class="data-info">Marko Acovski</span>
+            <a href="https://www.messenger.com" target="_blank" class="contact-button">Write me</a>
+        </div>
+        <div class="contact-content-cel">
+            <h3 class="title">
+                <i class="fa-regular fa-paper-plane-top"></i>Write me your comment
+            </h3>
+            <form action="" class="contact-form" id="contact-form">
+                <div class="contact-form-div">
+                    <label class="tag">Name</label>
+                    <input type="text" name="user-name" required placeholder="Write your name" class="input" id="name">
+                </div>
+
+                <div class="contact-form-div">
+                    <label class="tag">Mail</label>
+                    <input type="email" name="user-email" required placeholder="Write your email" class="input" id="email">
+                </div>
+
+                <div class="contact-form-div contact-form-area">
+                    <label class="tag">Comment</label>
+                    <textarea name="user-project" placeholder="Write your comment" class="input" id="comment"></textarea>
+                </div>
+
+                <button type="button" class="button">
+                    Submit <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+</body>
+</html>
